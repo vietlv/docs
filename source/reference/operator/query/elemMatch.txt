@@ -23,7 +23,7 @@ Definition
    contain an array field with at least one element that matches all the
    specified query criteria.
 
-   .. code-block:: javascript
+   ... code-block:: javascript
 
       { <field>: { $elemMatch: { <query1>, <query2>, ... } } }
 
